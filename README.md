@@ -21,9 +21,9 @@ Flow:
 * FPS display
 
 ## Setup 
-```python
+```bash
 git clone <your-repo-url>
-cd object-tracker
+cd real-time-object-tracker
 
 python3 -m venv venv
 source venv/bin/activate
@@ -32,7 +32,7 @@ pip install opencv-contrib-python
 ```
 
 ## Run
-```python
+```bash
 python tracker.py
 ```
 Controls:
