@@ -1,4 +1,4 @@
-# Real Time Object Tracker
+# Real Time Object Tracker 
 ## Overview
 
 This project is a real-time object tracker built using Python and OpenCV. The user selects an object from the webcam feed, and the system tracks it as it moves.
@@ -49,9 +49,6 @@ The system first opens a live webcam feed and displays a preview. The user selec
 
 The tracking result is visualized by drawing a bounding box around the object, along with an FPS counter to indicate performance. On macOS, the AVFoundation backend is used to ensure reliable webcam access.
 
-## Demo
-
-A demo video is included showing the tracking performance in real time.
 
 ## Improvements (if extended)
 * Re-detection if tracking fails
