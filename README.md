@@ -9,9 +9,9 @@ I used OpenCV’s CSRT tracker since the task is focused on tracking a user-sele
 
 Flow:
 
-1. Open webcam and show live preview
+1. Open the webcam and show a live preview
 2. User selects object using a bounding box
-3. Initialize tracker with that region
+3. Initialize the tracker with that region
 4. Update and display tracking in real time
 
 ## Features
@@ -21,17 +21,20 @@ Flow:
 * FPS display
 
 ## Setup 
-{git clone <your-repo-url>
+```python
+git clone <your-repo-url>
 cd object-tracker
 
 python3 -m venv venv
 source venv/bin/activate
 
-pip install opencv-contrib-python}
+pip install opencv-contrib-python
+```
 
 ## Run
-{python tracker.py}
-
+```python
+python tracker.py
+```
 Controls:
 
 * s → select object
